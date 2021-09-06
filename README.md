@@ -9,6 +9,11 @@
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/jigar-sable/LGMVIP-WebDev/search?l=javascript)
 
 ## 📌 Sneak Peek of Game 🙈 :
+![Screenshot (45)](https://user-images.githubusercontent.com/79128256/132222350-4a8667fa-baac-419f-ae9a-841d5e4d8694.png)
+## Try again
+![Screenshot (46)](https://user-images.githubusercontent.com/79128256/132222390-bc4e7fd0-9628-43ab-8a94-712fe3c82d43.png)
+## Win
+![Screenshot (44)](https://user-images.githubusercontent.com/79128256/132222297-481d1137-f51e-4f45-8730-d7ddf05c79ff.png)
 
 
 
