@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/885fbd8d84.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <big>Fun with Cards</big>
+      
+    </header>
+ 
+    <article class="container">
+        <section class="tracker">
+            <div class="stars">
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+            </div>
+            <div class="moves">
+                <p>Moves: 0</p>
+            </div>
+            <div class="time">
+                <p>Time: 00:00</p>
+            </div>
+            <button class="restart" onclick="restartGame()">
+                <i class="fas fa-redo"></i>
+            </button>
+        </section>
+        <ul class="deck">
+            <li class="holder">
+                <div class="card" data-name="lemon"><i class="fas fa-lemon"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="candy"><i class="fas fa-candy-cane"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="carrot"><i class="fas fa-carrot"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="hotdog"><i class="fas fa-hotdog"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="hamburger"><i class="fas fa-hamburger"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="cookie"><i class="fas fa-cookie"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="pizza"><i class="fas fa-pizza-slice"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="apple"><i class="fas fa-apple-alt"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="lemon"><i class="fas fa-lemon"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="candy"><i class="fas fa-candy-cane"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="carrot"><i class="fas fa-carrot"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="hotdog"><i class="fas fa-hotdog"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="hamburger"><i class="fas fa-hamburger"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="cookie"><i class="fas fa-cookie"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="pizza"><i class="fas fa-pizza-slice"></i></div>
+            </li>
+            <li class="holder">
+                <div class="card" data-name="apple"><i class="fas fa-apple-alt"></i></div>
+            </li>
+        </ul>
+    </article>
+
+    <article class="verdict">
+        <h1 class="message"></h1>
+        <p class="statement"></p>
+        <div class="stats">
+            <div class="stars">
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+            </div>
+            <div class="moves"></div>
+            <div class="time"></div>
+        </div>
+        <button class="btn" onclick="restartGame()">PLAY AGAIN</button>
+    </article>
+
+    <footer>
+        <a href="https://github.com/vishal46556"><img src="https://img.icons8.com/material-rounded/48/000000/github.png"/></a>
+        &nbsp;	&nbsp;	&nbsp;	&nbsp;
+       <a href="https://www.linkedin.com/in/vishal-patidar/"><img src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png"/></a>
+    <footer>
+     Made by &#9829; Vishal Patidar </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
